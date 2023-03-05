@@ -4,9 +4,34 @@
 본인의 branch를 생성하고, 본인의 작업물이나 아이디어를 그 branch의 readme나 새로운 파일에 저장하세요!  
 Master Branch에는 합의된 것만 올리기로 합니다.
 
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=10379782&assignment_repo_type=AssignmentRepo)
-# Welcome to GitHub
+## 내용에 아래와 같은 내용들을 추가하세요.
 
+### 1. 프로젝트 소개
+
+    국민대학교 구성원들을 위한 택시 카풀 매칭 서비스 어플리케이션 (가칭 : K-Arpool)
+    Taxi Ride-Share Matching Service Application for Kookmin University students, faculty, and staff.
+
+### 2. 소개 영상
+
+    프로젝트 소개하는 영상을 추가하세요
+
+### 3. 팀 소개
+
+    팀장 1 : 황정훈 (20152954)
+    팀원 2 : 이태우 (학번 적어주세요)
+    팀원 3 : 푸렙키시그 (학번 적어주세요)
+
+    팀을 소개하세요.
+    팀원정보 및 담당이나 사진 및 SNS를 이용하여 소개하세요.
+
+### 4. 사용법
+
+    소스코드제출시 설치법이나 사용법을 작성하세요.
+
+### 5. 기타
+
+    추가적인 내용은 자유롭게 작성하세요.
+    
 캡스톤 팀 생성을 축하합니다.
 
 ## 팀소개 및 페이지를 꾸며주세요.
@@ -24,30 +49,8 @@ Master Branch에는 합의된 것만 올리기로 합니다.
   - Theme Chooser에서 태마선택
   - 수정후 팀페이지 확인하여 점검.
 
-## 내용에 아래와 같은 내용들을 추가하세요.
-
-### 1. 프로젝트 소개
-
-프로젝트
-
-### 2. 소개 영상
-
-프로젝트 소개하는 영상을 추가하세요
-
-### 3. 팀 소개
-
-팀을 소개하세요.
-
-팀원정보 및 담당이나 사진 및 SNS를 이용하여 소개하세요.
-
-### 4. 사용법
-
-소스코드제출시 설치법이나 사용법을 작성하세요.
-
-### 5. 기타
-
-추가적인 내용은 자유롭게 작성하세요.
-
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=10379782&assignment_repo_type=AssignmentRepo)
+# Welcome to GitHub
 
 ## Markdown을 사용하여 내용꾸미기
 
