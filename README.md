@@ -1,39 +1,16 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=10379782&assignment_repo_type=AssignmentRepo)
-# Welcome to GitHub
-
-캡스톤 팀 생성을 축하합니다.
-
-## 팀소개 및 페이지를 꾸며주세요.
-
-- 프로젝트 소개
-  - 프로젝트 설치방법 및 데모, 사용방법, 프리뷰등을 readme.md에 작성.
-  - Api나 사용방법등 내용이 많을경우 wiki에 꾸미고 링크 추가.
-
-- 팀페이지 꾸미기
-  - 프로젝트 소개 및 팀원 소개
-  - index.md 예시보고 수정.
-
-- GitHub Pages 리파지토리 Settings > Options > GitHub Pages 
-  - Source를 marster branch
-  - Theme Chooser에서 태마선택
-  - 수정후 팀페이지 확인하여 점검.
-
 **팀페이지 주소** -> https://kookmin-sw.github.io/ '{{자신의 리파지토리 아이디}}'
 
-**예시)** 2023년 47조  https://kookmin-sw.github.io/capstone-2023-47
-
-
-## 내용에 아래와 같은 내용들을 추가하세요.
+2023년 47조  https://kookmin-sw.github.io/capstone-2023-47
 
 규정 및 해설
 
 제1조(목적) K-Arpool은 국민대학교 구성원들이 해당 어플리케이션을 통해 택시비를 절감하여 교통비 부담을 줄이는 것을 목적으로 한다.
 
-제2조(정의) 이 규정에서 사용하는 용어의 뜻은 다음과 같다.
-    > 1. "팀47"이란 다음 각 목의 자들로 구성된 팀을 말한다. 단, 가목의 자가 팀47의 장을 겸임한다.
-        > 가. 황정훈
-	> 나. 이태우
-	> 다. 푸렙키시그
+제2조(정의) 이 규정에서 사용하는 용어의 뜻은 다음과 같다.   
+    1. "팀47"이란 다음 각 목의 자들로 구성된 팀을 말한다. 단, 가목의 자가 팀47의 장을 겸임한다.   
+        가. 황정훈   
+	    나. 이태우   
+	    다. 푸렙키시그   
     2. “K-Arpool”이란 2023학년도 1학기 국민대학교 소프트웨어전공 캡스톤디자인 팀47이 제작한 모바일 어플리케이션(이하 "해당 어플"이라 한다)을 말한다.
     3. "운영자"란 팀47의 구성원 또는 그밖에 팀47이 임명하여 해당 어플의 운영을 돕는 자를 말한다.
     4. "국민대학교 구성원"이란 본인의 국민대학교 웹메일 계정을 소유한 자를 말한다.
@@ -103,6 +80,28 @@ Native와 Cross-Platform의 장단점은 이미 잘 알고 있으니 성능 vs �
 			  그 외 서버 이용 계획은 추후 논의
 			  
 2-2. Client : 모든 개인정보는 Client에서 Server로 (실제로 1000개를 일일이 다 넣을 수 없으므로 시범적으로 5개만 넣고 나머지는 바로 서버로)
+
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=10379782&assignment_repo_type=AssignmentRepo)
+# Welcome to GitHub
+
+캡스톤 팀 생성을 축하합니다.
+
+## 팀소개 및 페이지를 꾸며주세요.
+
+- 프로젝트 소개
+  - 프로젝트 설치방법 및 데모, 사용방법, 프리뷰등을 readme.md에 작성.
+  - Api나 사용방법등 내용이 많을경우 wiki에 꾸미고 링크 추가.
+
+- 팀페이지 꾸미기
+  - 프로젝트 소개 및 팀원 소개
+  - index.md 예시보고 수정.
+
+- GitHub Pages 리파지토리 Settings > Options > GitHub Pages 
+  - Source를 marster branch
+  - Theme Chooser에서 태마선택
+  - 수정후 팀페이지 확인하여 점검.
+
+## 내용에 아래와 같은 내용들을 추가하세요.
 
 ### 1. 프로젝트 소개
 
