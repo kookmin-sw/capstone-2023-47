@@ -1,4 +1,4 @@
-**팀페이지 주소** -> https://kookmin-sw.github.io/ '{{자신의 리파지토리 아이디}}'
+**팀페이지 주소** -> https://kookmin-sw.github.io/ '{{자신의 리파지토리 아이디}}'  
 2023년 47조  https://kookmin-sw.github.io/capstone-2023-47
 
 본인의 branch를 생성하고, 본인의 작업물이나 아이디어를 그 branch의 readme나 새로운 파일에 저장하세요!  
