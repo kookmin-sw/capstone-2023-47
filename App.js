@@ -1,11 +1,11 @@
-/*import React from 'react';
+import React from 'react';
 import AppNavigator from './AppNavigator';
 
 export default function App() {
   return <AppNavigator />;
-}*/
+}
 
-import React, { useState } from 'react';
+/* import React, { useState } from 'react';
 import { View, TextInput, Button } from 'react-native';
 
 const SignUpForm = () => {
@@ -34,4 +34,4 @@ const SignUpForm = () => {
   );
 };
 
-export default SignUpForm;
+export default SignUpForm; */
