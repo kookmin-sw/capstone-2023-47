@@ -45,26 +45,26 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#프로젝트 소개">About The Project</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#기술 스택">Built With</a></li>
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#사용 방법">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#ourTeam">Our Team</a></li>
+    <li><a href="#팀 소개">Our Team</a></li>
   </ol>
 </details>
 
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## 
 
    국민대학교 구성원들을 위한 택시 카풀 매칭 서비스 어플리케이션 (KoMpanion)
  국민대학교가 위치하고 있는 곳의 근처에서는 지하철 역이 없으며(1.1km 거리에 위치한 최단거리역인 북한산보국문역의 경우 도보 23분, 버스 14분이 소요된다.) 따하서 9시 수업을 들이여야 하는 학생(출근해야 하는 교직원 포함)이나 10시 30분 이후에 첫 수업을 듣는 학생들의 경우 셔틀버스가 없다면 지각을 면하기 위해 택시를 타야 하는 경우가 생길 수 있다.
