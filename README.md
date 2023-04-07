@@ -74,7 +74,7 @@
   
   택시요금은 타 대중교통 요금에 비해 비싸기 때문에 경제적 부담이 될 수밖에 없는데, 2023년 2월부터 서울특별시 택시요금이 4800원으로 인상되면서 그 부담이 더욱 커진 상황이다.
   
-  KomPanion은 국민대학교 구성원들이 택시요금을 절약하여 경제적 부담을 낮출 수 있는 것을 목표로 하는 프로젝트이다.
+  KomPanion은 국민대학교 구성원들이 택시요금을 절약하여 경제적 부담을 낮추는 것을 목표로 하는 프로젝트이다.
 
    Taxi Ride-Share Matching Service Application for Kookmin University students, faculty, and staff
   There is no subway station near where Kookmin University is located (the shortest station, Bukhansan Bogukmun Station, takes 23 minutes by walking and 14 minutes by 
