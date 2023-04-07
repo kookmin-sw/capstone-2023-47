@@ -135,7 +135,7 @@ KomPanion 사용방법
 
 
 ## Team 47
- - 황정훈 (20152954)   : Team leader/프로켁트 기획 및 발표내용
+ - 황정훈 (20152954)   : Team leader/프로젝트 기획 및 발표내용
  - 박기연 (20160411)   : Team member/Backend, BD
  - 이태우 (20171683)   : Team member/Frontend, UI/UX
  - 푸렙키시그 (20203156): Team member/Github, UI design
