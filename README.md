@@ -8,7 +8,7 @@ Master Branch에는 합의된 것만 올리기로 합니다.
 
 ### 1. 프로젝트 소개
 
-    국민대학교 구성원들을 위한 택시 카풀 매칭 서비스 어플리케이션 (가칭 : K-Arpool)
+    국민대학교 구성원들을 위한 택시 카풀 매칭 서비스 어플리케이션 KoMpanion
     Taxi Ride-Share Matching Service Application for Kookmin University students, faculty, and staff.
 
 ### 2. 소개 영상
@@ -31,7 +31,7 @@ Master Branch에는 합의된 것만 올리기로 합니다.
 
 ### 5. 기타
 
-    All Front-end develop in K-oMpanion
+    All Front-end develop in KoMpanion
     
 캡스톤 팀 생성을 축하합니다.
 
