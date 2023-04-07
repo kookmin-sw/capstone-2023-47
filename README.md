@@ -71,13 +71,16 @@
   따라서 9시 수업을 들어야 하는 학생(출근해야 하는 교직원 포함)이나 10시 30분 이후에 첫 수업을 듣는 학생들의 경우 셔틀버스가 없다면 지각을 면하기 위해 택시를 타야 하는 경우가 생길
   수 있다.
   
-  택시요금은 타 대중교통 요금에 피해 비싸기 때문에 경제적 부담이 될 수밖에 없는데, 2023년 2월부터 서울특별시 택시요금이 4800원으로 인상 되면서 그 부담이 커욱 커진 상황이다. 따라
-  서 KomPanion이 국민대학교 구성원들이 택시요금을 절약하여 경제적 부담을 낮출 수 있는 것을 목포로 하는 프로젝트입니다.
+  택시요금은 타 대중교통 요금에 피해 비싸기 때문에 경제적 부담이 될 수밖에 없는데, 2023년 2월부터 서울특별시 택시요금이 4800원으로 인상되면서 그 부담이 커욱 커진 상황이다. 따라
+  서 KomPanion은 국민대학교 구성원들이 택시요금을 절약하여 경제적 부담을 낮출 수 있는 것을 목표로 하는 프로젝트이다.
 
    Taxi Ride-Share Matching Service Application for Kookmin University students, faculty, and staff
-  There is no subway station near where Kookmin University is located (the shortest station, Bukhansan Bogukmun Station, takes 23 minutes by walking and 14 minutes by bus). Students who have classes at 9 p.m. (including faculty members who have to go to work) or students who have their first class after 10:30 p.m. may have to take a taxi to avoid being late.
+  There is no subway station near where Kookmin University is located (the shortest station, Bukhansan Bogukmun Station, takes 23 minutes by walking and 14 minutes by 
+  bus). Students who have classes at 9 p.m. (including faculty members who have to go to work) or students who have their first class after 10:30 p.m. may have to take 
+  a taxi to avoid being late.
 
-   Taxi fares are inevitably expensive in comparison to other public transportation charges, but since February 2023, the gap has increased as taxi fares in Seoul have exceeded to 4,800 won. Therefore, KomPanion is an app made for members of Kookmin University , to help them save taxi fares and reduce the economic burden.
+   Taxi fares are inevitably expensive in comparison to other public transportation charges, but since February 2023, the gap has increased as taxi fares in Seoul have 
+   exceeded to 4,800 won. Therefore, KomPanion is an app made for members of Kookmin University , to help them save taxi fares and reduce the economic burden.
   
  
 
@@ -134,7 +137,7 @@ KomPanion 사용방법
 ## Team 47
  - 황정훈 (20152954)   : Team leader/프로켁트 기획 및 발표내용
  - 박기연 (20160411)   : Team member/Backend, BD
- - 이태우 (20171683)   : Team member/Frontend
+ - 이태우 (20171683)   : Team member/Frontend, UI/UX
  - 푸렙키시그 (20203156): Team member/Github, UI design
 
 
