@@ -65,12 +65,14 @@
 
 <!-- ABOUT THE PROJECT -->
 ## 프로젝트 소개
-
-   국민대학교 구성원들을 위한 택시 카풀 매칭 서비스 어플리케이션 (KoMpanion)
- 국민대학교가 위치하고 있는 곳의 근처에서는 지하철 역이 없으며(1.1km 거리에 위치한 최단거리역인 북한산보국문역의 경우 도보 23분, 버스 14분이 소요된다.) 따하서 9시 수업을 들이여야 하는 학생(출근해야 하는 교직원 포함)이나 10시 30분 이후에 첫 수업을 듣는 학생들의 경우 셔틀버스가 없다면 지각을 면하기 위해 택시를 타야 하는 경우가 생길 수 있다.
-
-   택시요금은 타 대중교통 요금에 피해 비싸기 때문에 경제적 부담이 될 수밖에 없는데, 2023년 2월부터 서울특별시 택시요금이 4800원으로 이상되면서 그 부담이 커욱 커진 상황이다.
-  따라서 KomPanion이 국민대학교 구성원들이 택시요금을 절약하여 경제적 부담을 낮출 수 있는 것을 목포로 하는 프로젝트입니다.
+  
+  국민대학교 구성원들을 위한 택시 카풀 매칭 서비스 애플리케이션 (KoMpanion) 
+  국민대학교가 위치하고 있는 곳의 근처에서는 지하철역이 없으며(1.1km 거리에 위치한 최단거리 역인 북한산 보국문 역의 경우 도보 23분, 버스 14분이 소요된다.)
+  따라서 9시 수업을 들어야 하는 학생(출근해야 하는 교직원 포함)이나 10시 30분 이후에 첫 수업을 듣는 학생들의 경우 셔틀버스가 없다면 지각을 면하기 위해 택시를 타야 하는 경우가 생길
+  수 있다.
+  
+  택시요금은 타 대중교통 요금에 피해 비싸기 때문에 경제적 부담이 될 수밖에 없는데, 2023년 2월부터 서울특별시 택시요금이 4800원으로 인상 되면서 그 부담이 커욱 커진 상황이다. 따라
+  서 KomPanion이 국민대학교 구성원들이 택시요금을 절약하여 경제적 부담을 낮출 수 있는 것을 목포로 하는 프로젝트입니다.
 
    Taxi Ride-Share Matching Service Application for Kookmin University students, faculty, and staff
   There is no subway station near where Kookmin University is located (the shortest station, Bukhansan Bogukmun Station, takes 23 minutes by walking and 14 minutes by bus). Students who have classes at 9 p.m. (including faculty members who have to go to work) or students who have their first class after 10:30 p.m. may have to take a taxi to avoid being late.
