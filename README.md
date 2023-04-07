@@ -139,7 +139,7 @@ KoMpanion 사용방법
 ## Team 47
  - 황정훈 (20152954)   : Team leader/Project Planning, Presentation
  - 박기연 (20160411)   : Team member/Back-end, BD
- - 이태우 (20171683)   : Team member/Front-end, UI/UX
+ - 이태우 (20171683)   : Team member/Front-end, Detailed Project Plan, UI/UX 
  - 푸렙키시그 (20203156): Team member/Github, UI design
 
 
