@@ -87,7 +87,7 @@
 
 <div align="left">
   <a href="https://reactnative.dev/">
-    <img src="assets/img/logos/react.png" alt="Logo" width="100" height="40">
+    <img src="assets/img/logos/react.png" alt="Logo" width="140" height="40">
   </a>
 
   <a href="https://expo.dev/">
