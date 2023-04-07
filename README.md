@@ -31,7 +31,7 @@
 <h3 align="center">CAPSTONE PROJECT TEAM-47 </h3>
 
   <p align="center">
-    KomPanion
+    KoMpanion
     <br />
     <a href="https://kookmin-sw.github.io/capstone-2023-47/"><strong>Web page»</strong></a>
     <br />
