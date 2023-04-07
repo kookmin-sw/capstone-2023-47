@@ -91,19 +91,19 @@
   </a>
 
   <a href="https://expo.dev/">
-    <img src="assets/img/logos/expo.png" alt="Logo" width="100" height="40">
+    <img src="assets/img/logos/expo.png" alt="Logo" width="140" height="40">
   </a>
 
   <a href="https://www.javascript.com/">
-    <img src="assets/img/logos/java.png" alt="Logo" width="100" height="40">
+    <img src="assets/img/logos/java.png" alt="Logo" width="140" height="40">
   </a>
 
   <a href="https://nodejs.org/en">
-    <img src="assets/img/logos/node.png" alt="Logo" width="100" height="40">
+    <img src="assets/img/logos/node.png" alt="Logo" width="140" height="40">
   </a>
 
   <a href="https://www.mysql.com/">
-    <img src="assets/img/logos/sql.png" alt="Logo" width="100" height="40">
+    <img src="assets/img/logos/sql.png" alt="Logo" width="140" height="40">
   </a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
