@@ -45,19 +45,19 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#프로젝트 소개">About The Project</a>
+      <a href="#프로젝트 소개"></a>
       <ul>
-        <li><a href="#기술 스택">Built With</a></li>
+        <li><a href="#기술 스택">기술 스택</a></li>
       </ul>
     </li>
     <li>
-      <a href="#사용 방법">Getting Started</a>
+      <a href="#사용 방법">사용 방법</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#팀 소개">Our Team</a></li>
+    <li><a href="#팀 소개">팀 소개</a></li>
   </ol>
 </details>
 
