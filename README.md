@@ -30,7 +30,7 @@ Master Branch에는 합의된 것만 올리기로 합니다.
 
 ### 5. 기타
 
-    추가적인 내용은 자유롭게 작성하세요.
+    All Front-end develop in K-oMpanion
     
 캡스톤 팀 생성을 축하합니다.
 
