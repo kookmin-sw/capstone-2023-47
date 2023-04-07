@@ -120,7 +120,7 @@
 KomPanion 사용방법
 ### Prerequisites
 
-이터넷 연결이 된 핸드폰 (iphone or android)
+인터넷 연결이 된 핸드폰 (iphone or android)
 
 ### Installation and Usage
 
