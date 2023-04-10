@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { StyleSheet, Text, View, TextInput, Switch, Button } from 'react-native';
+import { StyleSheet, Text, View, TextInput, Switch, Button, Picker } from 'react-native';
 
 export default function App() {
   const [start, setStart] = useState('');
@@ -9,6 +9,9 @@ export default function App() {
   const [smokingAllowed, setSmokingAllowed] = useState(false);
   const [currentPassengerCount, setCurrentPassengerCount] = useState('');
   const [totalPassengerCount, setTotalPassengerCount] = useState('');
+  const [selectedNumber, setSelectedNumber] = useState(1);
+  
+ 
 
   const handleStartChange = (text) => {
     setStart(text);
@@ -30,13 +33,20 @@ export default function App() {
     setSmokingAllowed(value);
   };
 
-  const handleCurrentPassengerCountChange = (text) => {
-    setCurrentPassengerCount(text);
-  };
+  //const handleCurrentPassengerCountChange = (text) => {
+  //  setCurrentPassengerCount(text);
+  //};
+  const handleCurrentNumberChange = (number) => {
+    setSelectedNumber(number);
+  }
 
-  const handleTotalPassengerCountChange = (text) => {
-    setTotalPassengerCount(text);
-  };
+
+  //const handleTotalPassengerCountChange = (text) => {
+  //  setTotalPassengerCount(text);
+  //};
+  const handleTotalNumberChange = (number) => {
+    setSelectedNumber(number);
+  }
 
   const handleMatchButtonPress = () => {
     // 매칭 결과 화면으로 이동하는 코드
@@ -44,7 +54,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>국민대 동행</Text>
+      <Text style={styles.title}>KoMpanion  </Text>
       <TextInput
         style={styles.input}
         onChangeText={handleStartChange}
@@ -78,21 +88,32 @@ export default function App() {
           value={smokingAllowed}
         />
       </View>
-      <TextInput
-        style={styles.input}
-        onChangeText={handleCurrentPassengerCountChange}
-        value={currentPassengerCount}
-        placeholder="현재 인원수"
-        keyboardType="numeric"
-      />
-      <TextInput
-        style={styles.input}
-        onChangeText={handleTotalPassengerCountChange}
-        value={totalPassengerCount}
-        placeholder="총 동승자 수"
-        keyboardType="numeric"
-      />
-      <Button title="카풀 매칭" onPress={handleMatchButtonPress} />
+        
+      
+      <View>
+        <Picker
+        selectedValue={selectedNumber}
+        onValueChange={handlecurrentNumberChange}
+        >
+        <Picker.Item label="1" value={1} />
+        <Picker.Item label="2" value={2} />
+        <Picker.Item label="3" value={3} />
+        <Picker.Item label="4" value={4} />
+      </Picker>
+      </View>
+      <View>
+        <Picker
+        selectedValue={selectedNumber}
+        onValueChange={handletotalNumberChange}
+        >
+        <Picker.Item label="1" value={1} />
+        <Picker.Item label="2" value={2} />
+        <Picker.Item label="3" value={3} />
+        <Picker.Item label="4" value={4} />
+      </Picker>
+      </View>
+
+      <Button title="동행 매칭" onPress={handleMatchButtonPress} />
     </View>
   );
 }
@@ -134,5 +155,3 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
   },
 });
-
-export default App;
