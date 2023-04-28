@@ -25,7 +25,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/kookmin-sw/capstone-2023-47">
-    <img src="assets/img/header-bg.jpg" alt="Logo" width="80" height="80">
+    <img src="assets/img/carpool.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">CAPSTONE PROJECT TEAM-47 </h3>
