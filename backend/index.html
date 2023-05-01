@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KomPanion</title>
+  </head>
+  <body>
+    <noscript> You need to enable Javascript to run this app. </noscript>
+    <button id="btn-google"></button>
+    <script>
+      const onSignInCallback = async (response) => {
+        try {
+          const res = await fetch("http://localhost:3000/api/login", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify({
+              token: response.credential,
+            }),
+          });
+
+          const data = await res.json();
+
+          console.log(data);
+        } catch (error) {
+          console.log(error);
+        }
+      };
+
+      const googleSignInBtn = document.getElementById("btn-google");
+      const script = document.createElement("script");
+      script.src = "https://accounts.google.com/gsi/client";
+      script.onload = () => {
+        window.google.accounts.id.initialize({
+          client_id:
+            "905415143432-svb6bd5dpsklksu0adou831avffdu7k3.apps.googleusercontent.com",
+          callback: onSignInCallback,
+        });
+        window.google.accounts.id.renderButton(googleSignInBtn, {
+          width: "250",
+          type: "icon",
+          shape: "circle",
+        });
+      };
+
+      document.head.appendChild(script);
+    </script>
+  </body>
+</html>

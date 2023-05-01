@@ -1,0 +1,38 @@
+{
+  "name": "kiyeon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/app.js",
+  "scripts": {
+    "prettier": "prettier -w src/**/*.js",
+    "dev": "nodemon",
+    "build": "webpack --mode production",
+    "start": "node ./dist/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^4.13.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "google-auth-library": "^8.7.0",
+    "iron-session": "^6.3.1",
+    "prisma": "^4.13.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.3",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.2",
+    "babel-node": "0.0.1-security",
+    "babel-plugin-module-resolver": "^5.0.0",
+    "nodemon": "^2.0.22",
+    "prettier": "^2.8.8",
+    "webpack": "^5.76.3",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.1",
+    "webpack-node-externals": "^3.0.0"
+  }
+}
