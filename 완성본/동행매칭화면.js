@@ -55,9 +55,9 @@ export default function App() {
 
       <View style={styles.section}>
         <Checkbox style={styles.checkbox} value={isCarChecked} onValueChange={handleCarChange} />
-        <Text style={styles.paragraph}>카풀</Text> 
+        <Text style={styles.paragraph}>운전자</Text> 
         <Checkbox style={styles.checkbox} value={isTaxiChecked} onValueChange={handleTaxiChange} />
-        <Text style={styles.paragraph}>택시풀</Text> 
+        <Text style={styles.paragraph}>동행자</Text> 
       </View>
       
       
@@ -87,6 +87,13 @@ export default function App() {
         placeholder="희망 동행 인원 수"
         keyboardType="numeric"
       />
+      <View style={styles.switchContainer}>
+        <Text style={styles.switchLabel}>본인 흡연여부</Text>
+        <Switch
+          onValueChange={handleSmokingAllowedChange}
+          value={smokingAllowed}
+        />
+      </View>
       <View style={styles.switchContainer}>
         <Text style={styles.switchLabel}>동행자 흡연여부</Text>
         <Switch
