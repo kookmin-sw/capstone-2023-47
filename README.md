@@ -112,6 +112,9 @@
   <a href="https://www.mysql.com/">
     <img src="assets/img/logos/sql.png" alt="Logo" width="140" height="40">
   </a>
+  <a href="https://www.prisma.io/"
+    <img src="assets/img/logos/prizma.png" alt="Logo" width="140" height="40">
+  </a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
