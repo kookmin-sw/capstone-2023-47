@@ -9,16 +9,13 @@ const Login = () => {
   const loginButtonPressed = async () => {
     const redirectUrl = await WebBrowser.openAuthSessionAsync(
       'https://apps.kookmin.ac.kr/',
-      'https://your-redirect-url' // 로그인 후 돌아올 URL을 여기에 입력해주세요.
-    );
+      'https://your-redirect-url' 
 
     if (redirectUrl) {
-      // 로그인이 성공하고 돌아온 경우
-      // 필요한 작업 수행
+      
       navigation.navigate('Match');
     } else {
-      // 로그인이 실패하거나 사용자가 취소한 경우
-      // 필요한 작업 수행
+
     }
   };
 
