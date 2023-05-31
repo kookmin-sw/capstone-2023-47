@@ -20,7 +20,7 @@ app.use(express.json())
 // router 연결
 app.use('/', myRouter)
 
-// error handling
+// error handling middleware
 const errorHandler = (err, req, res, next) => {
   res.status(err.status || 500)
   res.send({ message: err.message })

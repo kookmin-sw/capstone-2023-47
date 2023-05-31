@@ -7,60 +7,35 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model I_RANKED {
-  USER_web_mail String  @id @db.VarChar(100)
-  average       Float?  @db.Float
-  evaluation    String? @db.VarChar(500)
-  USER          USER    @relation(fields: [USER_web_mail], references: [web_mail], onDelete: NoAction, onUpdate: NoAction, map: "fk_I_RANKED_USER1")
-}
-
-model MATCHED_MATCHING {
-  name                                            String?            @db.VarChar(100)
-  MATCHING_AGREEMENT_matching_no                  Int
-  MATCHING_AGREEMENT_MATCHING_QUEUE_USER_web_mail String             @db.VarChar(100)
-  MATCHING_AGREEMENT                              MATCHING_AGREEMENT @relation(fields: [MATCHING_AGREEMENT_matching_no, MATCHING_AGREEMENT_MATCHING_QUEUE_USER_web_mail], references: [matching_no, MATCHING_QUEUE_USER_web_mail], onDelete: NoAction, onUpdate: NoAction, map: "fk_MATCHED_MATCHING_MATCHING_AGREEMENT1")
-
-  @@id([MATCHING_AGREEMENT_matching_no, MATCHING_AGREEMENT_MATCHING_QUEUE_USER_web_mail])
-}
-
-model MATCHING_AGREEMENT {
-  matching_no                  Int
-  matcing_agreement            Boolean?
-  MATCHING_QUEUE_USER_web_mail String            @db.VarChar(100)
-  MATCHED_MATCHING             MATCHED_MATCHING?
-  MATCHING_QUEUE               MATCHING_QUEUE    @relation(fields: [MATCHING_QUEUE_USER_web_mail], references: [USER_web_mail], onDelete: NoAction, onUpdate: NoAction, map: "fk_MATCHING_AGREEMENT_MATCHING_QUEUE1")
-
-  @@id([matching_no, MATCHING_QUEUE_USER_web_mail])
-  @@index([MATCHING_QUEUE_USER_web_mail], map: "fk_MATCHING_AGREEMENT_MATCHING_QUEUE1_idx")
-}
-
-model MATCHING_QUEUE {
-  name               String?              @db.VarChar(100)
-  gender             String?              @db.VarChar(4)
-  car_owner          Boolean?
-  position           String?              @db.VarChar(200)
-  destination        String?              @db.VarChar(200)
-  gender_lock        Boolean?
-  number_of_people   Int?
-  recent_smoked      Boolean?
-  smoker_lock        Boolean?
-  USER_web_mail      String               @id @db.VarChar(100)
-  MATCHING_AGREEMENT MATCHING_AGREEMENT[]
-  USER               USER                 @relation(fields: [USER_web_mail], references: [web_mail], onDelete: NoAction, onUpdate: NoAction, map: "fk_MATCHING_QUEUE_USER1")
-}
-
 model USER {
-  web_mail       String          @id @db.VarChar(100)
-  name           String          @db.VarChar(100)
-  gender         String          @db.Char(4)
-  I_RANKED       I_RANKED?
-  MATCHING_QUEUE MATCHING_QUEUE?
-  WAS_RANKED     WAS_RANKED?
+  web_mail      String         @id @db.VarChar(100)
+  name          String         @db.VarChar(100)
+  gender        String         @db.Char(4)
+  smoke         Int            @db.TinyInt
+  MATCHING_INFO MATCHING_INFO?
+  REVIEW        REVIEW?
 }
 
-model WAS_RANKED {
+model MATCHING_INFO {
   USER_web_mail String  @id @db.VarChar(100)
-  average       Float?  @db.Float
-  evaluation    String? @db.VarChar(500)
-  USER          USER    @relation(fields: [USER_web_mail], references: [web_mail], onDelete: NoAction, onUpdate: NoAction, map: "fk_WAS_RANKED_USER1")
+  from          Decimal @db.Decimal(18, 10)
+  to            Decimal @db.Decimal(18, 10)
+  is_driver     Int     @db.TinyInt
+  USER          USER    @relation(fields: [USER_web_mail], references: [web_mail], onDelete: NoAction, onUpdate: NoAction, map: "fk_MATCHING_INFO_USER")
+}
+
+model MATCHING_SUCCESS {
+  matching_no        Int
+  driver_web_mail    String @db.VarChar(100)
+  passenger_web_mail String @db.VarChar(100)
+
+  @@id([matching_no, driver_web_mail, passenger_web_mail])
+}
+
+model REVIEW {
+  USER_web_mail String  @id @db.VarChar(100)
+  review_score  Float?  @db.Float
+  received      String? @db.VarChar(100)
+  wrote         String? @db.VarChar(100)
+  USER          USER    @relation(fields: [USER_web_mail], references: [web_mail], onDelete: NoAction, onUpdate: NoAction, map: "fk_REVIEW_USER1")
 }
